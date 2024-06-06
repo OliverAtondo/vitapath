@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<svg width="808" height="740.552" style="background-color:white" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <g class="layer">
+  <title>Layer 1</title>
+  <g data-name="Grupo 1" id="Grupo_1">
+   <rect data-name="Rectángulo 1" fill="rgb(211, 26, 27)" height="48" id="Rectángulo_1" rx="24" transform="matrix(1 0 0 1 -12.3724 -141.655)" width="216" x="13" y="363"/>
+   <g data-name="Elipse 1" fill="none" id="Elipse_1" stroke="#fff" stroke-width="46">
+    <circle cx="378" cy="745" fill="none" id="svg_2" r="327" stroke="rgb(211, 26, 27)" transform="matrix(1 0 0 1 43.6276 -374.655)"/>
+   </g>
+   <rect data-name="Rectángulo 2" fill="rgb(211, 26, 27)" height="48" id="Rectángulo_2" rx="24" transform="matrix(0.485 0.875 -0.875 0.485 191.259 -149.749)" width="216" x="323.65" y="164.54"/>
+   <rect data-name="Rectángulo 3" fill="rgb(211, 26, 27)" height="48" id="Rectángulo_3" rx="24" transform="matrix(-0.5 0.866025 -0.866025 -0.5 380.763 -124.622)" width="216" x="307.87" y="-192.76"/>
+   <rect data-name="Rectángulo 4" fill="rgb(211, 26, 27)" height="48" id="Rectángulo_4" rx="24" transform="matrix(1 0 0 1 325.628 -141.655)" width="470" x="13" y="362"/>
+   <rect data-name="Rectángulo 5" fill="rgb(211, 26, 27)" height="48" id="Rectángulo_5" rx="24" transform="matrix(-0.5 0.866025 -0.866025 -0.5 431.263 -47.6842)" width="477.56" x="306.14" y="-191.76"/>
+   <rect data-name="Rectángulo 6" fill="rgb(211, 26, 27)" height="48" id="Rectángulo_6" rx="24" transform="matrix(1 0 0 1 376.628 -62.6552)" width="419" x="13" y="361"/>
+  </g>
+ </g>
+</svg>
