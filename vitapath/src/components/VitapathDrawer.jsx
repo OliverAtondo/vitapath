@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import { ReactComponent as Casita } from '../assets/casita.svg';
 import { ReactComponent as Notita } from '../assets/notita.svg';
-import { ReactComponent as Settings } from '../assets/settings.svg';
+// import { ReactComponent as Settings } from '../assets/settings.svg';
 import logo from '../assets/vitapath.svg';
 import { useNavigate } from 'react-router-dom';
 
@@ -18,9 +18,9 @@ export default function VitapathDrawer() {
         navigate(route);
     };
 
-    const handleSetting = () => {
+    // const handleSetting = () => {
         
-    };
+    // };
 
     return (
         <Drawer
@@ -118,7 +118,7 @@ export default function VitapathDrawer() {
                 </Button>
             </div>
             </List>
-            <List>
+            {/* <List>
             <Box sx={{ height: '50vh' }} />
             <div style={{
                 display: 'flex',
@@ -152,7 +152,7 @@ export default function VitapathDrawer() {
                     Settings
                 </Button>
             </div>
-            </List>
+            </List> */}
         </Box>
         </Drawer>
     );
