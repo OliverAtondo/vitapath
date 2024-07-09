@@ -4,7 +4,7 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
-import campanita from '../assets/campanita.svg'
+// import campanita from '../assets/campanita.svg'
 
 export default function VitapathAppBar() {
   return (
@@ -19,7 +19,7 @@ export default function VitapathAppBar() {
             aria-label="menu"
             sx={{ mr: 2 }}
           >
-            <img src={campanita} style={{ height: 24 }} alt="Vitapath Logo" />
+            {/* <img src={campanita} style={{ height: 24 }} alt="Vitapath Logo" /> */}
           </IconButton>
           <Box margin={3}>
             <Typography color="black" fontWeight="bold"> Admin Console </Typography>
