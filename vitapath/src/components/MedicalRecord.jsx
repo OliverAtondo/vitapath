@@ -8,7 +8,7 @@ export default function MedicalRecord() {
   React.useEffect(() => {
     async function fetchPatients() {
       try {
-        const response = await fetch("https://api.react.vita-path.com/api/get-users");
+        const response = await fetch("https://dl1671m2pa.execute-api.us-west-1.amazonaws.com/api/get-users");
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
         }

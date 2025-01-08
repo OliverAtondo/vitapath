@@ -97,7 +97,7 @@ export default function VitapathTable() {
   const fetchData = async () => {
     try {
       console.log('Fetching data from API...');
-      const response = await axios.get('https://api.react.vita-path.com/api/get-emergencies');
+      const response = await axios.get('https://dl1671m2pa.execute-api.us-west-1.amazonaws.com/api/get-emergencies');
       console.log('Data fetched:', response.data);
       const formattedData = response.data.map(emergency => ({
         id: emergency.id, // Asegúrate de tener un campo `id` único en tus datos
