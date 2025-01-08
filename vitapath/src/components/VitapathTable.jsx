@@ -17,6 +17,10 @@ import { Button } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
+require('dotenv').config();
+
+const apiUrl = process.env.API_BASE_URL;
+
 function getStatusColor(status) {
   switch (status) {
     case 'Pending':
@@ -97,7 +101,7 @@ export default function VitapathTable() {
   const fetchData = async () => {
     try {
       console.log('Fetching data from API...');
-      const response = await axios.get('https://dl1671m2pa.execute-api.us-west-1.amazonaws.com/api/get-emergencies');
+      const response = await axios.get(apiUrl+'get-emergencies');
       console.log('Data fetched:', response.data);
       const formattedData = response.data.map(emergency => ({
         id: emergency.id, // Asegúrate de tener un campo `id` único en tus datos

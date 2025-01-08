@@ -2,13 +2,17 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import MedicalRecordCard from './MedicalRecordCard';
 
+require('dotenv').config();
+
+const apiUrl = process.env.API_BASE_URL;
+
 export default function MedicalRecord() {
   const [patients, setPatients] = React.useState([]);
 
   React.useEffect(() => {
     async function fetchPatients() {
       try {
-        const response = await fetch("https://dl1671m2pa.execute-api.us-west-1.amazonaws.com/api/get-users");
+        const response = await fetch(apiUrl+"get-users");
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
         }
